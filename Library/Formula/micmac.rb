@@ -22,6 +22,7 @@ class Micmac < Formula
     system "make"
     system "make", "install"
     prefix.install "bin"
+    include.install "include/XML_GEN", "include/XML_MicMac"
   end
 
 
